@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h1 style="color: purple; text-align: center;">Form Elements</h1>
+
+    <form>
+      <fieldset style="color: purple;">
+        <legend style="color: purple;">Personal Informations</legend>
+        <div>
+          <label for="name" style="display: inline-block; width: 120px;">Name:</label>
+          <input type="text" id="name" style="width: 200px;">
+        </div>
+        <div>
+          <label for="surname" style="display: inline-block; width: 120px;">Surname:</label>
+          <input type="text" id="surname" style="width: 200px;">
+        </div>
+        <div>
+          <label for="password" style="display: inline-block; width: 120px;">Password:</label>
+          <input type="password" id="password" style="width: 200px;">
+        </div>
+        <div>
+          <span style="display: inline-block; width: 120px;">Gender:</span>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </div>
+      </fieldset>
+
+      <fieldset style="color: purple;">
+        <legend style="color: purple;" >Communication Information</legend>
+        <div>
+          <label for="email" style="display: inline-block; width: 120px;">E-mail:</label>
+          <input type="email" id="email" style="width: 200px;">
+        </div>
+      </fieldset>
+
+      <fieldset style="color: purple;">
+        <legend style="color: purple;">Other Informations</legend>
+        <div>
+          <label for="fruit" style="display: inline-block; width: 120px;">Favorite Fruit:</label>
+          <select id="fruit" style="width: 208px;">
+            <option value="">Seçiniz..</option>
+            <option value="cherry">Cherry</option>
+            <option value="banana">Banana</option>
+            <option value="watermelon">Watermelon</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="melon">Melon</option>
+            <option value="apple">Apple</option>
+            <option value="pomegranate">Pomegranate</option>
+            <option value="papaya">Papaya</option>
+            <option value="peach">Peach</option>
+          </select>
+        </div>
+        <div>
+          <label for="message" style="display: inline-block; width: 120px;">Your Message:</label>
+          <textarea id="message" style="width: 200px; height: 80px;"></textarea>
+        </div>
+      </fieldset>
+
+      <div style="text-align: center; margin-top: 10px;">
+        <button type="submit" style="width: 70px;">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
